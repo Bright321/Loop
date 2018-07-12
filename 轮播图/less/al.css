@@ -1,0 +1,43 @@
+.al {
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.al .al_banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.al .al_banner .al_box {
+  position: relative;
+  left: -100%;
+  overflow: hidden;
+}
+.al .al_banner .al_box li {
+  float: left;
+}
+.al .al_banner .al_box li img {
+  width: 100%;
+  display: block;
+}
+.al .al_banner .al_point {
+  width: 128px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+}
+.al .al_banner .al_point > li {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  float: left;
+  margin-left: 10px;
+}
+.al .al_banner .al_point .active {
+  background-color: #fff;
+}

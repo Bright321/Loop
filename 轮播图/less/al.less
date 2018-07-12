@@ -1,0 +1,48 @@
+.al{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+    margin:0 auto;
+    .al_banner{
+        width:100%;
+        overflow: hidden;
+        position:relative;
+        .al_box{
+            // width: 1000%;
+            position: relative;
+            left:-100%;
+            overflow: hidden;
+            li{
+                // width: 10%;
+                float:left;
+                img{
+                    width:100%;
+                    display: block;
+                }
+            }
+        }
+        .al_point{
+        width: 128px;
+        height: 10px;
+        position:absolute;  
+        left:50%;
+        bottom:5px;
+        transform: translateX(-50%);
+        // background: blue; 
+        >li{
+            width: 6px;
+            height: 6px;
+            border-radius: 3px;
+            border:1px solid #fff;
+            float:left;
+            margin-left:10px;  
+        }
+        .active{
+               background-color: #fff;
+           }
+     }
+    }
+   
+}
+   
